@@ -1,5 +1,7 @@
 Toknect is simple and easy to use android chat application with additional features of making friends.
 
+<img src="app/src/main/res/drawable-ldpi/toknetmainlogo.png" >
+
 Features:
   1)Register or Login .
   2)Setup username , status and upload profile picture.
