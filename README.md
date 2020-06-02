@@ -4,10 +4,10 @@ Toknect is simple and easy to use android chat application with additional featu
 
 Features:
   - Register or Login .
-  2)Setup username , status and upload profile picture.
-  3)Search users with their username.
-  4)Send request.
-  5)Reject or accept friend request.
-  6)Visit friend's profile.
-  7)Unfriend a friend.
-  8)Real time chatting with friends.
+  - Setup username , status and upload profile picture.
+  - Search users with their username.
+  - Send request.
+  - Reject or accept friend request.
+  - Visit friend's profile.
+  - Unfriend a friend.
+  - Real time chatting with friends.
