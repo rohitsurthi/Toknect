@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/colorBlack">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/request_friend_propic"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/default_user_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/request_friend_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/request_details"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/request_friend_propic"
+        android:fontFamily="@font/pnb"
+        android:text="username"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/request_friend_propic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accept_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/request_friend_username"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/request_friend_propic"
+        android:fontFamily="@font/pnr"
+        android:text="Accept or Request ?"
+        android:textColor="@color/colorwhite"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/request_friend_propic"
+        app:layout_constraintTop_toBottomOf="@+id/request_friend_username"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/request_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/request_friend_propic"
+        android:fontFamily="@font/pnb"
+        android:text="My request to"
+        android:textColor="@color/colorwhite"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/request_friend_propic"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <ImageView
+        android:id="@+id/image_indicator"
+        android:layout_width="39dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@drawable/sent_icon" />
+
+    <View
+        style="@style/Divider"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimaryDark" />
+
+
+</RelativeLayout>

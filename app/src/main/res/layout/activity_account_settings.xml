@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountSettingsActivity"
+    android:background="@color/colorBlack">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_image"
+        android:layout_width="203dp"
+        android:layout_height="205dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="103dp"
+        android:src="@drawable/user_default_circle_profile_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/setting_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="149dp"
+        android:fontFamily="@font/pnb"
+        android:text="Username"
+        android:textColor="@color/colorwhite"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_image" />
+
+    <TextView
+        android:id="@+id/setting_user_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_username"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/pnb"
+        android:text="User bio"
+        android:textColor="@color/colorwhite"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_username" />
+
+    <Button
+        android:id="@+id/edit_image_btn"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edit_status_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="80dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/pnb"
+        android:text="Edit Image"
+        android:textColor="@color/colorBlack"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/edit_status_btn"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_user_status" />
+
+    <Button
+        android:id="@+id/edit_status_btn"
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/setting_user_status"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="80dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/pnb"
+        android:text="Edit Bio"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_user_status" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_user_status"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="61dp"
+        app:srcCompat="@drawable/status_icon" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/profile_icon" />
+
+</RelativeLayout>

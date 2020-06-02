@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:background="@color/colorBlack">
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/start_login_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="78dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/pnb"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="-205dp"
+        android:background="@drawable/custom_button"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/start_reg_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        android:fontFamily="@font/pnb"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="98dp"
+        android:foregroundGravity="center"
+        app:srcCompat="@drawable/toknetmainlogo"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+</RelativeLayout>

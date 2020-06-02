@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632805981494",
+    "firebase_url": "https://realtimechatapp-ef0a0.firebaseio.com",
+    "project_id": "realtimechatapp-ef0a0",
+    "storage_bucket": "realtimechatapp-ef0a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632805981494:android:b58dc83ee8265958f84797",
+        "android_client_info": {
+          "package_name": "com.rohheat.realtimechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632805981494-2d32j8c8h7cvje574ag27ldpc7p4t9qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBhErAXppUtje540OB1Oc-sLsxXAQl3x8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632805981494-2d32j8c8h7cvje574ag27ldpc7p4t9qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
